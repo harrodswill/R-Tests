@@ -1,6 +1,6 @@
 library(tidyverse)
 
-print("Hello World 123") 
+print("Hello World") 
 
 billboard_longer <- billboard |> 
   pivot_longer(
