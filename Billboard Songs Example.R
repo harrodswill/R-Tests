@@ -1,5 +1,7 @@
 library(tidyverse)
 
+print("Hello World")
+
 billboard_longer <- billboard |> 
   pivot_longer(
     cols = starts_with("wk"), 
