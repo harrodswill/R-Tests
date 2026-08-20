@@ -1,7 +1,6 @@
 library(tidyverse)
 
 print("Hello World") 
-Print("balls")
 
 billboard_longer <- billboard |> 
   pivot_longer(
