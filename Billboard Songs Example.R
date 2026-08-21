@@ -1,7 +1,6 @@
 library(tidyverse)
 
 print("Hello World") 
-#comment
 
 billboard_longer <- billboard |> 
   pivot_longer(
